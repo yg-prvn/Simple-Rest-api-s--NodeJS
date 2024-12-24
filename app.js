@@ -99,4 +99,4 @@ app.delete('/_delete/students/:id', (req, res) => {
 
 // Server Creation
 const port = process.env.port || 8080;
-app.listen(port, () => console.log("Listening on port 8080...\n\n"));
+app.listen(port, () => console.log("\nTry URLs :\n\nGET Methods\n1) localhost:8080\n2) localhost:8080/_get/students\n3) localhost:8080/_get/students/<id>\n\nPOST Method\n4) localhost:8080/_post/students {for Parameters: Body->Json}\n\nPUT Method\n5) localhost:8080/_put/students/<id> {for Parameters: Body->Json}\n\nDELETE Method\n6) localhost:8080/_delete/students/<id>\n\n\n\nListening on port 8080..."));
